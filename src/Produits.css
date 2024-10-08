@@ -1,0 +1,171 @@
+h1{
+    font-size: 22px;
+}
+
+.main-container{
+    width: 100%;
+    display: flex;    
+    
+  } 
+  .layout{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 25px;
+    gap: 55px;
+    align-items: center;
+    
+    
+  }
+
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
+    /* padding: 15px; */
+    justify-content:space-between;
+    width: 96%;
+}
+.buttons{
+  display: flex;
+  row-gap: 10px;
+  justify-content: center;
+}
+
+
+
+.searchbar {
+    position: relative; 
+    margin-right: 5%;
+
+  }
+  
+
+
+  .search-input{
+    
+    padding: 10px 40px ; 
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+   
+  }
+  
+
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px; 
+    transform: translateY(-50%);
+    color: #888;
+    font-size: 18px;
+    pointer-events: none; 
+  }
+  
+
+  .search-input::placeholder {
+    color: #B5B5C3;
+    font-weight: 300px;
+    font-size: 16px;
+  }
+
+  .notify{
+  
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;  
+  }
+
+  .table-container{
+    
+    padding: 13px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    
+  }
+  
+  table {
+    width: 80vw; 
+  }
+  
+  
+  th, td {
+    padding: 13px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    
+    
+  }
+  
+ 
+  span{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  }
+  .option1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap:5px;
+  }
+  .option{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    gap:5px;
+    border-radius: 8px;
+    background-color: #c9ced3;
+    padding: 2px;
+  }
+  .option button{
+    background:transparent;
+    border: none;
+    outline: none;
+    padding: 5px;
+
+
+  }
+  .table-header{
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    padding: 1px;
+  }
+  .Green{
+    font-size: 15px;
+    width: 65px;
+    padding: 5px;
+    text-align: center;
+    color: #4ccf8b;
+    background-color: #e8fef2;
+    border-radius: 8px;
+    font-weight: bold;
+
+  }
+  .Red{
+    font-size: 15px;
+    width: 68px;
+    padding: 5px;
+    text-align: center;
+    color:#c34e71;
+    background-color: #fff2f8;
+    border-radius: 8px;
+    font-weight: bold;
+  }
+  .Blue{
+    font-size: 15px;
+    width: 65px;
+    padding: 5px;
+    text-align: center;
+    color: #0064e8;
+    background-color: #f1faff;
+    border-radius: 8px;
+    font-weight:bold;
+  }
+  .tableheaderbtn{
+    padding: 8px;
+    background-color: #0064e8;
+    border: none;
+    color:white;
+    border-radius: 8px;
+  }

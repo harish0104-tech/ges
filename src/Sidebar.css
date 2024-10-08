@@ -1,0 +1,95 @@
+.main-content{
+    display: flex;
+    width: 20%;
+    min-width: 300px;
+    overflow-x: hidden;
+    height: 100vh;
+    
+  }
+  .sidebar{
+    width: 100%;
+    min-width: 300px;
+    flex-shrink: 0;
+    background-color: #ceb798;
+  }
+  
+  .logo-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 70%;
+  }
+  
+  .avatar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8%;
+    width: 25%;
+  }
+  h4{
+    font-family: Poopins;
+    font-weight: 700px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 2%;
+    color: #212121;
+  }
+  
+  h5{
+    color:#7E8299;
+    text-align: center;
+    font-weight: 500px;
+    line-height: 18px;
+  }
+  
+  .content {
+    background-color: #212121;
+    flex-grow: 1;
+  }
+  
+  .menu-section {
+    width: 100%;
+    padding: 25px;
+}
+
+.menu-item {
+    padding: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+    gap: 5px;
+}
+
+.menu-title {
+    font-weight: bold;
+    justify-content: flex-start;
+    gap: 5px;
+    color: #181C32;
+}
+
+.submenu {
+  list-style-type: disc;
+    padding-left: 35px;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.submenu li {
+    padding: 5px 0;
+    list-style-type: disc;
+    
+}
+
+.logout-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    padding: 10px 0;
+    margin-top: 35%;
+    color: #7E8299;
+    cursor: pointer;
+    text-align: center;
+    
+} 
+
